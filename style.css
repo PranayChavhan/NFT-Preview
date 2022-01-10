@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.attribution {
+  margin-top: 10vh;
+  font-size: 15px;
+}
+
+.card {
+  padding: 25px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+img {
+  display: block;
+  position: relative;
+  opacity: 1;
+  width: 40vh;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.overlay {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 10px;
+  position: absolute;
+  top: 9.7%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-color: hsla(178, 100%, 50%, 0.507)
+  
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.content img {
+  width: 45px;
+} 
+.img-container:hover .overlay{
+    opacity: 9;
+}
+h1 {
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  width: 12px;
+}
+h4 {
+  color: hsl(178, 100%, 50%);
+  padding-left: 5px;
+}
+
+.img2 {
+  width: 18px;
+}
+h3 {
+  color: hsl(215, 51%, 70%);
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: hsla(215, 52%, 70%, 0.404);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.creation {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.avatar {
+  width: 33px;
+  height: 33px;
+  border: 2px solid white;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  margin-right: 20px;
+}
+span {
+  color: white;
+  cursor: pointer;
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
