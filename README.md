@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
 
 ## Table of contents
 
@@ -10,8 +10,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+
 
 ## Overview
 
@@ -24,14 +24,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot (120)](https://user-images.githubusercontent.com/85397500/148744481-3916f91c-45d1-4d84-825a-12502a13cc94.png)
+## On Hover
+![Screenshot (121)](https://user-images.githubusercontent.com/85397500/148744491-5a9c0d69-c28f-4107-921d-c644e45e9546.png)
+![Screenshot (118)](https://user-images.githubusercontent.com/85397500/148744495-d94c29c6-18a9-4f79-8373-9f64ac85a283.png)
+![Screenshot (119)](https://user-images.githubusercontent.com/85397500/148744500-bb91179f-79ac-435f-b408-5a9eb7f0334e.png)
+
 
 
 
 
 ### Links
 
-- Solution IMG: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: (https://your-live-site-url.com)
 
 ## My process
@@ -42,23 +46,3 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
